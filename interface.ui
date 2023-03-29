@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>722</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>722</width>
+    <height>412</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>722</width>
+    <height>412</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	background-color: rgb(243, 243, 243);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>681</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 2px;
+border-color: #d9d9d9;</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item alignment="Qt::AlignLeft">
+      <widget class="QComboBox" name="cb_detectar">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">            QComboBox {
+                background-color: white;
+				font: 8pt &quot;Roboto&quot;;
+                border: none;
+                border-radius: 5px;
+                padding: 1px 18px 1px 3px;
+                min-width: 6em;
+            }
+
+            QComboBox::drop-down {
+                subcontrol-origin: padding;
+                subcontrol-position: top right;
+                width: 15px;
+
+                border-left-width: 1px;
+                border-left-color: gray;
+                
+            }
+
+            QComboBox::down-arrow {
+				
+				image: url(:/icones/setinha.png);
+                width: 16px;
+                height: 16px;
+            }
+
+            QComboBox QAbstractItemView {
+                border: 1px solid gray;
+                selection-background-color: black;
+                background-color: white;
+            }</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Português</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Inglês</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Espanhol</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignHCenter">
+      <widget class="QPushButton" name="btn_trocar_lang">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+border: none;
+outline: 0;
+color: #e3e3e3;
+}
+
+QPushButton#btn_trocar_lang:pressed {
+	padding-left: 2px;
+	padding-top: 2px;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="icones.qrc">
+         <normaloff>:/icones/trocar.png</normaloff>:/icones/trocar.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignRight">
+      <widget class="QComboBox" name="cb_traduzido">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">            QComboBox {
+                background-color: white;
+				font: 8pt &quot;Roboto&quot;;
+                border: none;
+                border-radius: 5px;
+                padding: 1px 18px 1px 3px;
+                min-width: 6em;
+            }
+
+            QComboBox::drop-down {
+                subcontrol-origin: padding;
+                subcontrol-position: top right;
+                width: 15px;
+
+                border-left-width: 1px;
+                border-left-color: gray;
+                
+            }
+
+            QComboBox::down-arrow {
+				
+				image: url(:/icones/setinha.png);
+                width: 16px;
+                height: 16px;
+            }
+
+            QComboBox QAbstractItemView {
+                border: 1px solid gray;
+                selection-background-color: black;
+                background-color: white;
+            }</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Inglês</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Português</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Espanhol</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>681</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>681</width>
+      <height>281</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>681</width>
+      <height>281</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-right-color: rgb(217, 217, 217);
+border-left-color: rgb(217, 217, 217);
+border-bottom-color: rgb(217, 217, 217);
+border-style: solid;
+border-width: 2px;</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPlainTextEdit" name="pte_traduzir">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid #b9b9b9;
+color: black;</string>
+       </property>
+       <property name="plainText">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Escreva ou cole o texto</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_traduzir">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	font: 10pt &quot;Roboto&quot;;
+	color: #fff;
+	outline: 0;
+	border: 5px solid #343434;
+	background-color: rgb(52, 52, 52);
+}
+
+QPushButton:hover {
+	color: #000000;
+	border: 5px solid #8d8d8d;
+	background-color: rgb(141, 141, 141);
+}
+
+
+QPushButton#btn_traduzir:pressed {
+	padding-left: 2px;
+	padding-top: 2px;
+	color: #000000;
+	border: 5px solid #fff;
+	background-color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Traduzir</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="pte_traduzido">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid #b9b9b9;</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="plainText">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+    <zorder>btn_traduzir</zorder>
+    <zorder>pte_traduzido</zorder>
+    <zorder>pte_traduzir</zorder>
+   </widget>
+   <widget class="QLabel" name="lb_titulo">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25pt &quot;Roboto Thin&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Tradutor</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_copiar_traduzido">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>360</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(255, 255, 255);
+border: none;
+outline: 0;
+color: #e3e3e3;
+}
+
+QPushButton#btn_copiar_traduzido:pressed {
+	padding-left: 2px;
+	padding-top: 2px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icones.qrc">
+      <normaloff>:/icones/copiar.png</normaloff>:/icones/copiar.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icones.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icones">
+    <file>copiar.png</file>
+    <file>trocar.png</file>
+    <file>setinha.png</file>
+  </qresource>
+</RCC>
