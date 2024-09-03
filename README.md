@@ -41,7 +41,7 @@ Com o ambiente virtual ativado, execute o programa com o seguinte comando:
     python main.py
     ```
 2. Interface
-![Screenshot da interface gráfica](TradutorSimples.png)
+    ![Screenshot da interface gráfica](TradutorSimples.png)
 - Texto para traduzir: Insira o texto que deseja traduzir.
 - Texto Traduzido: O texto traduzido será exibido aqui.
 - Traduzir: Clique no botão central "Traduzir" para traduzir o texto.
